@@ -25,12 +25,12 @@ credentials that you can use to connect to Telepath.
 
 ### Creating a Demo Project
 
-1. `git clone` or download this repo.
-2. From the root directory, run `npm install`
-3. Login/signup at https://alpha.telepath.io
-4. Click on the `Connections` tab and add your database credentials.
-5. Wait 5-10 minutes... You can work on the next step, but you need to allow our server time to 
+1. Login/signup at https://alpha.telepath.io
+2. Click on the `Connections` tab and add your database credentials.
+3. Wait 5-10 minutes... You can work on the next step, but you need to allow our server time to 
 propagate your new database credentials before you try to deploy your project. Haha. Growing pains.
+4. `git clone` or download the files in this repo.
+5. From the root directory, run `npm install`
 6. Open `index.ts` in your IDE and update the values of your Connection slug and your database table name.
 7. Use the CLI to create the project resources. From the project root directory, run `npm run cli:deploy` 
 (if it tells you to login, run `npm run cli:login` and try again). 
