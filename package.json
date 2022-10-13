@@ -1,0 +1,16 @@
+{
+  "name": "alpha-demo",
+  "version": "0.0.0",
+  "scripts": {
+    "cli:deploy": "telepath deploy",
+    "cli:deploy:debug": "telepath deploy --verbose",
+    "cli:login": "telepath login"
+  },
+  "dependencies": {
+    "@telepath/telepath": "latest"
+  },
+  "devDependencies": {
+    "@telepath/cli": "latest",
+    "@types/node": "^18.8.5"
+  }
+}
