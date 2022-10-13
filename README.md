@@ -25,19 +25,21 @@ credentials that you can use to connect to Telepath.
 
 ### Creating a Demo Project
 
-1. Login/signup at https://alpha.telepath.io
-2. Click on the `Connections` tab and add your database credentials.
-3. Wait 5-10 minutes... You can work on the next step, but you need to allow our server time to 
+1. `git clone` or download this repo.
+2. From the root directory, run `npm install`
+3. Login/signup at https://alpha.telepath.io
+4. Click on the `Connections` tab and add your database credentials.
+5. Wait 5-10 minutes... You can work on the next step, but you need to allow our server time to 
 propagate your new database credentials before you try to deploy your project. Haha. Growing pains.
-4. Open `index.ts` in your IDE and update the values of your Connection slug and your database table name.
-5. Use the CLI to create the project resources. From the project root directory, run `npm run cli:deploy` 
+6. Open `index.ts` in your IDE and update the values of your Connection slug and your database table name.
+7. Use the CLI to create the project resources. From the project root directory, run `npm run cli:deploy` 
 (if it tells you to login, run `npm run cli:login` and try again). 
-6. Once the resources are created, go back to https://alpha.telepath.io and click on the `Models` tab,
+8. Once the resources are created, go back to https://alpha.telepath.io and click on the `Models` tab,
 and then click on the `Model Specs` sub-tab. You should see the ModelSpec resource that you create. Click on it!
-7. Click on the `Start Training Model` button.
-8. Wahoo! Your model is training! The page should auto-refresh, but you can refresh if it seems like it's hanging.  
-Keep in mind, the model will likely take 30 - 90 minutes to train.
-9. Once the training is complete, you can find your model listed in the `Models` tab, including a very basic
+9. Click on the `Start Training Model` button. 
+10. Wahoo! Your model is training! The page should auto-refresh, but you can refresh if it seems like it's hanging.  
+Keep in mind, the model will likely take 30 - 90 minutes to train. 
+11. Once the training is complete, you can find your model listed in the `Models` tab, including a very basic
 API endpoint for making predictions with the model.
 
 If all that worked, then you saved days/weeks of infrastructure and MLOps work! If it didn't, then at least your only
