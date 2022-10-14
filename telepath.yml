@@ -1,3 +1,3 @@
 project:
-  id: alpha-project
+  id: project-slug      # <-- Replace "project-slug" with your Project's slug
   runtime: typescript

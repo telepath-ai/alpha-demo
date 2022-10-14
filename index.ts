@@ -25,7 +25,7 @@ export const pipeline = new Pipeline('demo-pipeline', {
             from: {
                 sourceId: source.id,
                 table: 'value' // <-- Replace the "value" with the name of the table in the database
-            }
+            },
         }
     },
 });
