@@ -4,7 +4,8 @@
   "scripts": {
     "cli:deploy": "telepath deploy",
     "cli:deploy:debug": "telepath deploy --verbose",
-    "cli:login": "telepath login"
+    "cli:login": "telepath login",
+    "cli:version": "telepath version"
   },
   "dependencies": {
     "@telepath/telepath": "latest"
