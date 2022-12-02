@@ -25,7 +25,7 @@ credentials that you can use to connect to Telepath.
 
 ### Creating a Demo Project
 
-1. Login/signup at https://alpha.telepath.io
+1. Login/signup at https://app.telepath.io
 2. Click on the `Projects` tab and create a new Project. You will need the "slug" later.
 3. Click on the `Connections` tab and add your database credentials. 
 4. `git clone` or download the files in this repo. 
@@ -34,7 +34,7 @@ credentials that you can use to connect to Telepath.
 7. Open `index.ts` in your IDE and update the values of your Connection slug and your database table name. 
 8. Use the CLI to create the project resources. From the project root directory, run `npm run cli:deploy` 
 (if it tells you to login, run `npm run cli:login` and try again). 
-9. Once the resources are created, go back to https://alpha.telepath.io and click on the `Models` tab,
+9. Once the resources are created, go back to https://app.telepath.io and click on the `Models` tab,
 and then click on the `Model Specs` sub-tab. You should see the ModelSpec resource that you create. Click on it!
 10. Click on the `Start Training Model` button. 
 11. Wahoo! Your model is training! The page should auto-refresh, but you can refresh if it seems like it's hanging.  
